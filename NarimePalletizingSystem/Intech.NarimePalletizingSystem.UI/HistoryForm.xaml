@@ -1,0 +1,46 @@
+﻿<Window x:Class="Intech.NarimePalletizingSystem.UI.HistoryForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Intech.NarimePalletizingSystem.UI"
+        mc:Ignorable="d"
+        Title="HistoryForm" Height="450" Width="800">
+    <Grid>
+        <Border CornerRadius="8" Background="White" Margin="20">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="1*"/>
+                </Grid.RowDefinitions>
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Label Content="Bắt đầu: " FontSize="16"/>
+                    <DatePicker x:Name="startDate" FontSize="16"/>
+                    <DatePickerTextBox x:Name="startTime" FontSize="16"/>
+                    <Label Content="Kết thúc: " FontSize="16" Margin="10 0 0 0"/>
+                    <DatePicker x:Name="endDate" FontSize="16"/>
+                    <DatePickerTextBox x:Name="endTime" FontSize="16"/>
+                    <Button x:Name="btnSearch" Content="Tìm kiếm" Margin="20 0 0 0"/>
+                </StackPanel>
+                
+                <DataGrid Grid.Row="1" x:Name="PalletDataGrid" Style="{DynamicResource DataGridStyle}" 
+                                      IsReadOnly="True"
+                                      SelectedCellsChanged="PalletDataGrid_SelectedCellsChanged">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="ID" Width="50" Binding="{Binding PalletId}"/>
+                        <DataGridTextColumn Header="Thời gian" Width="150" Binding="{Binding DateTime}"/>
+                        <DataGridTextColumn Header="Mã sản phẩm" Width="387" Binding="{Binding ProductCode}"/>
+                        <DataGridTextColumn Header="Mã quy đổi" Width="387" Binding="{Binding LeverCode}"/>
+                        <DataGridTextColumn Header="Ca" Width="387" Binding="{Binding ShiftId}"/>
+                        <DataGridTextColumn Header="Tổ sản xuất" Width="387" Binding="{Binding TeamId}"/>
+                        <DataGridTextColumn Header="Line" Width="387" Binding="{Binding LineId}"/>
+                        <DataGridTextColumn Header="Số thứ tự Pallet" Width="387" Binding="{Binding NumOrder}"/>
+                        <DataGridTextColumn Header="Số lot" Width="387" Binding="{Binding Lot}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+
+            </Grid>
+        </Border>
+    </Grid>
+</Window>
