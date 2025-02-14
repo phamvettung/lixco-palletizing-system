@@ -13,5 +13,5 @@ Các Pallet sau quá trình bốc xếp hàng hóa được băng tải điều 
 - WPF, Entity Framework, MS SQL Server
 - Ngôn ngữ: C#
 ### HOẠT ĐỘNG HỆ THỐNG
-![Palletizing System](/assets/palletizing-system.jpg)
+![Palletizing System](/assets/lixco.jpg)
 
