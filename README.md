@@ -1,7 +1,7 @@
 # Phần mềm Máy dán nhãn cho Hệ thống bốc xếp hàng hóa tự động Lixco - Palletizing
 ![Palletizing System](/assets/palletizing-system.jpg)
 ### NGUYÊN LÝ HOẠT ĐỘNG
-Các Pallet sau quá trình bốc xếp hàng hóa được băng tải điều khiển đến vị trí máy in tem. Phần mềm tích hợp với Hệ thống của Nhà máy để lấy thông tin sản phẩm, lưu thông tin pallet đã tính sản lượng và thực hiện in nhãn lên Pallet. 
+Pallet sau quá trình bốc xếp hàng hóa được băng tải điều khiển đến vị trí máy in tem. Phần mềm tích hợp với Hệ thống của Nhà máy để lấy thông tin sản phẩm, lưu thông tin pallet đã tính sản lượng và thực hiện in tem lên Pallet. 
 ### CÁC CHỨC NĂNG
 - Tích hợp với Hệ thống của Lixco thông qua API.
 - Kết nối với Bộ điều khiển PLC Siemens, đọc dữ liệu và gửi tín hiệu in xuống băng chuyền.
