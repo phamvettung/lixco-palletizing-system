@@ -6,9 +6,9 @@ Pallet sau quá trình bốc xếp hàng hóa được băng tải điều khi�
 - Tích hợp với Hệ thống của Lixco thông qua API.
 - Kết nối với Bộ điều khiển PLC Siemens, đọc dữ liệu và gửi tín hiệu in xuống băng chuyền.
 - Kết nối với máy in tem TSC sử dụng SDK do hãng phát triển.
-- Hiển thị thông tin sản phẩm, tổ sản xuất, ca, sản lượng và lưu lịch sử Pallet đã tính sản lượng
-- Các chế độ in nhãn tự động, in nhãn thủ công
-- Thêm, sửa, xóa Model
+- Hiển thị thông tin sản phẩm, tổ sản xuất, ca, sản lượng và lưu lịch sử Pallet đã tính sản lượng.
+- Các chế độ in nhãn tự động, in nhãn thủ công.
+- Thêm, sửa, xóa Model.
 ### CÁC CÔNG NGHỆ SỬ DỤNG
 - WPF, Entity Framework, MS SQL Server
 - Ngôn ngữ: C#
