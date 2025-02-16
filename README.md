@@ -13,6 +13,6 @@ Pallet sau quá trình bốc xếp hàng hóa được băng tải điều khi�
 - WPF, Entity Framework, MS SQL Server
 - Ngôn ngữ: C#
 ### HOẠT ĐỘNG HỆ THỐNG
-Tem sau khi in lên pallet
+Tem sau khi in lên pallet</br>
 ![Palletizing System](/assets/lixco.jpg)
 
