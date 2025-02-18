@@ -1,4 +1,4 @@
-# Phần mềm Máy dán nhãn cho Hệ thống bốc xếp hàng hóa tự động - Palletizing System
+# Phần mềm máy dán nhãn cho Hệ thống bốc xếp hàng hóa tự động - Palletizing System
 ![Palletizing System](/assets/palletizing-system.jpg)
 ### NGUYÊN LÝ HOẠT ĐỘNG
 Pallet sau quá trình bốc xếp hàng hóa được hệ thống điều khiển đến vị trí máy in nhãn. Phần mềm tích hợp với Hệ thống của Nhà máy để lấy thông tin sản phẩm, lưu thông tin pallet đã tính sản lượng (đã in lên pallet) và thực hiện in nhãn lên trên pallet. 
