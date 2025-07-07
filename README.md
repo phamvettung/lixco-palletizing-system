@@ -12,7 +12,7 @@ Pallet sau quá trình bốc xếp được hệ thống điều khiển đến 
 ![Palletizing System](/assets/Lixco_diagram.PNG)
 - Kết nối với Bộ điều khiển PLC Siemens, đọc dữ liệu và gửi tín hiệu in xuống băng chuyền.
 - Kết nối với máy in TSC sử dụng SDK do hãng phát triển.
-- 
+
 ### CÁC CÔNG NGHỆ SỬ DỤNG
 - WPF, C# Entity Framework
 - MS SQL Server
