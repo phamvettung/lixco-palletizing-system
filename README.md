@@ -9,7 +9,7 @@ Pallet sau quá trình bốc xếp được hệ thống điều khiển đến 
 - Thêm, sửa, xóa Model.
 
 ### SƠ ĐỒ KẾT NỐI
-![Palletizing System](/assets/Lixco_diagram.PNG)
+![Palletizing System](/assets/lixco_diagram2.PNG)
 - Kết nối với Bộ điều khiển PLC Siemens, đọc dữ liệu và gửi tín hiệu in xuống băng chuyền.
 - Kết nối với máy in TSC sử dụng SDK do hãng phát triển.
 
