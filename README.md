@@ -2,10 +2,10 @@
 ![Palletizing System](/assets/palletizing-system.jpg)
 
 ### OVERVIEW
-After loading and unloading product, the pallet is controlled by system to the label printer positon. The software intergrates with Factory's System to retrieve product information, save pallet info printed and at the same time perform print label on pallet.
+After loading and unloading product, the pallet is controlled by system to the label printer positon. The software intergrates with the Factory's System to retrieve product information, save pallet info printed and at the same time perform print label on pallet.
 
 ### FEATURES
-- Intergrates with Factory's Server via RESTful API
+- Intergrates with the Factory's Server via RESTful API
 - Show product infomation, production team, shift, output and save history.
 - Auto or Manual label printing.
 - Manage model: Add, Edit, Delete.
