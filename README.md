@@ -19,6 +19,6 @@ After loading and unloading product, the pallet is controlled by system to the l
 - WPF, C# Entity Framework
 
 ### DEMO
-Label after print on the pallet</br>
+Label after printed on the pallet</br>
 ![Palletizing System](/assets/lixco.jpg)
 
