@@ -16,7 +16,7 @@ After loading and unloading product, the pallet is controlled by system to the l
 - Connect to TSC printer, print label.
 
 ### FRAMEWORK USED
-- WPF, C# Entity Framework
+- WPF C#
 
 ### DEMO
 Label after printed on pallet</br>
